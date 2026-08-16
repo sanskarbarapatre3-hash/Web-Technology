@@ -1,0 +1,39 @@
+body{
+    background-color: #e5d1dd;
+}
+.time{
+    background-color: cyan;
+}
+.r{
+    background-color: gold;
+}
+.d{
+    background-color: coral;
+}
+.iv{
+    background-color: chartreuse;
+}
+.ds{
+    background-color: #3606f4;
+}
+.co{
+    background-color: rgb(182, 118, 241);
+}
+.dm{
+    background-color: cornsilk;
+}
+.fo{
+    background-color: darkmagenta;
+}
+.cl{
+    background-color: rgb(123, 234, 197);
+} 
+.lab{
+    background-color: rgb(250, 6, 6);
+}
+.sp{
+    background-color: rgb(224, 10, 142);
+}
+.blank{
+    background-color: bisque;
+}
