@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>TypeScript Shopping Cart</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h2>TypeScript Shopping Cart</h2>
+
+  <div>
+    <input type="text" id="name" placeholder="Item Name">
+    <input type="number" id="price" placeholder="Price">
+    <input type="number" id="qty" placeholder="Quantity">
+    <button id="addBtn">Add Item</button>
+  </div>
+
+  <br>
+
+  <table border="1">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Price</th>
+        <th>Qty</th>
+        <th>Action</th>
+      </tr>
+    </thead>
+    <tbody id="cartTable"></tbody>
+  </table>
+
+  <p><strong>Products (map):</strong> <span id="namesList"></span></p>
+  <p><strong>Total (reduce):</strong> ₹<span id="totalPrice">0</span></p>
+
+  <script src="app.js"></script>
+</body>
+</html>
