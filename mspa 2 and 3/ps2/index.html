@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shopping Cart</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+<h2>Shopping Cart Application</h2>
+<button id="fetchBtn" class="btn-fetch">Fetch Products from API</button>
+<h3>Available Products</h3>
+<div id="productGrid" class="product-grid"></div>
+<hr>
+<h3>Your Cart</h3>
+<div class="cart-summary">
+<span>Total Items: <strong id="totalItems">0</strong></span>
+<span>Grand Total: <strong>$<span id="totalPrice">0.00</span></strong></span>
+</div>
+<ul id="cartList" class="cart-list"></ul>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
